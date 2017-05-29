@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif;
+}
+body {
+    font-size: 12px;
+    line-height: 22px;
+    color: #333;
+}
+.banner{
+    background: #1b2f4f
+        repeat-x top;
+}
+#logo {
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+.page {
+    width: 980px;
+    margin: 0 auto;
+    height: 70px;
+    position: relative;
+}
+.searchbox {
+    margin-top: 15px;
+    height: 30px;
+}
+.search{
+    float: right;
+    /*margin-left: 50%;*/
+    /*margin-top: 50px;*/
+    /*width: 70%;*/
+}
+.s_text {
+    /*height: 35px;*/
+    /*width: 70%;*/
+    margin-right: 10px;
+}
+.s_button {
+    cursor: pointer;
+    width: 50px;
+    height: 22px;
+    /*line-height: 38px;*/
+    border: 0;
+    color: #fff;
+    background-color: #154c43;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0;
+    border-radius: 3px;
+}
+.s_key {
+    margin-right: 5px;
+}
+.button {
+    cursor: pointer;
+    width: 102px;
+    height: 36px;
+    line-height: 38px;
+    border: 0;
+    color: #fff;
+    background-color: #154c43;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0;
+}
+.mtop {
+    margin-top: 10px;
+}
+.topxx {
+    text-align: right;
+    height: 24px;
+    color: #fff;
+    padding: 5px 4px 5px 0;
+    letter-spacing: 3px;
+    font-size: 11px;
+}
+.topxx a {
+    color: #fff;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+.leftbox {
+    width: 144px;
+    float: left;
+}
+.leftbgt {
+    position: absolute;
+    background: url("../asserts/students/leftboxbt.jpg");
+    width: 11px;
+    height: 52px;
+    left: -11px;
+    top: -4px;
+}
+.leftbgt2 {
+    position: absolute;
+    background: url("../asserts/students/leftboxbt2.jpg");
+    width: 11px;
+    height: 48px;
+    left: -11px;
+    top: -1px;
+}
+.box-img {
+    border: #bdd7f2 1px solid;
+    border-top: #154c43 4px solid;
+    border-bottom: #154c43 4px solid;
+    background: #eff2f7 repeat-y;
+    margin-left: 10px;
+}
+.box-img .tab1 {
+    border-bottom: 1px #154c43 solid;
+    display: block;
+    text-align: center;
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+}
+.tlist div {
+    height: 28px;
+    line-height: 24px;
+    border-bottom: 1px #1b2f4f dotted;
+}
+.tlist div a {
+    display: block;
+    background: #fff;
+    line-height: 28px;
+    height: 28px;
+    text-align: center;
+}
+.mbox {
+    color: #154c43;
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #ddd;
+    line-height: 30px;
+}
+.rightbox {
+    margin-left: 160px;
+    margin-top: 20px;
+    min-height: 500px;
+}
+.info-table table {
+    border-bottom: #f0f0f0 solid 1px;
+    border-right:  #f0f0f0 solid 1px;
+}
+.info-table {
+    padding: 20px 0;
+}
+.info-table td, .info-table th{
+    border-top: #f0f0f0 solid 1px;
+    border-left: #f0f0f0 solid 1px;
+    padding: 6px 5px;
+}
+.info-table input[type="text"] {
+    border: 0px none #ddd;
+}
+.info-table input[type="submit"] {
+    margin: 10px;
+}
+.info-table select {
+    border: 0px none #ddd;
+}
+td th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.tag-info {
+    background: url("../asserts/students/bg_bt.jpg")
+    repeat-x bottom;
+    overflow: hidden;
+    padding: 20px 0 0 0;
+}
+ul {
+    list-style-type: none;
+}
+
+.tag-info ul li {
+    float: left;
+    margin-right: 8px;
+    cursor: pointer;
+    line-height: 35px;
+    height: 35px;
+}
+
+.tag1 {
+    background: #fff url(../asserts/students/bgnav.jpg) repeat-x;
+    font-weight: 700;
+    overflow: hidden;
+    border: 1px #1b2f4f solid;
+    border-bottom: none;
+    position: relative;
+    bottom: -1px;
+    font-size: 14px;
+    color: #fff;
+}
+.tag2 {
+    background: #fff url(../asserts/students/bgnav2.jpg) repeat-x;
+    border: 1px #bed9f0 solid;
+    border-bottom: none;
+    font-size: 14px;
+    color: #1b2f4f;
+    height: 31px;
+    overflow: hidden;
+}
+.tag3 {
+    background: #fff url(../asserts/students/bgnav2.jpg) repeat-x;
+    border: 1px #bed9f0 solid;
+    border-bottom: none;
+    font-size: 14px;
+    color: #1b2f4f;
+    height: 31px;
+    overflow: hidden;
+}
+
+a{
+    color: #1b2f4f;
+    text-decoration: none;
+}
+.tag-info ul li a{
+    text-align: center;
+    display: block;
+    padding: 0 15px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.footer {   
+    border-top: 1px #ddd solid;
+    text-align: center;
+    padding: 10px;
+    line-height: 26px;
+    margin-top: 60px;
+}
+
+.stable table {
+    border-bottom: #f0f0f0 solid 1px;
+    border-right:  #f0f0f0 solid 1px;
+}
+.stable {
+    padding: 20px 0;
+}
+.stable td, .stable th{
+    border-top: #f0f0f0 solid 1px;
+    border-left: #f0f0f0 solid 1px;
+    text-align: center;
+    padding: 6px 10px;
+}
+.stable input[type="text"] {
+    border: 0px none #ddd;
+}
+.stable input[type="submit"] {
+    margin: 10px;
+}
+.stable select {
+    border: 0px none #ddd;
+}
